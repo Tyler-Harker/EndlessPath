@@ -1,0 +1,16 @@
+res://Creatures/Humans/Warrior.cs
+res://Scenes/CreateAccountScreen.cs
+res://Scenes/HomeScreen.cs
+res://Scenes/LoginScreen.cs
+res://UiComponents/CharacterSelect.cs
+res://UiComponents/CharacterSelectItem.cs
+res://UiComponents/CreateCharacterForm.cs
+res://UiComponents/CreateCharacterForm.tscn
+res://Themes/Default.tres
+res://Tiles/TileSet1.tres
+res://Dungeons/ForestDungeon1.tscn
+res://Creatures/Humans/Knight.tscn
+res://Scenes/HomeScreen.tscn
+res://UiComponents/CharacterSelectItem.tscn
+res://UiComponents/CharacterSelect.tscn
+res://Scenes/CreateAccountScreen.tscn

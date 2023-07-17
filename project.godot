@@ -11,14 +11,16 @@ config_version=5
 [application]
 
 config/name="EndlessPath"
-run/main_scene="res://Scenes/Main.tscn"
+run/main_scene="res://Scenes/LoginScreen.tscn"
 config/features=PackedStringArray("4.1", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/mode=2
-window/stretch/scale=4.0
+window/size/viewport_width=800
+window/size/viewport_height=600
+window/size/initial_position_type=0
+window/size/initial_position=Vector2i(200, 200)
 
 [dotnet]
 

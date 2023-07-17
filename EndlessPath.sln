@@ -1,12 +1,20 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessPath", "EndlessPath.csproj", "{82CEE5AD-B764-465E-A52A-E1874365F2B9}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndlessPath", "EndlessPath.csproj", "{82CEE5AD-B764-465E-A52A-E1874365F2B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndlessPath.Domain", "..\EndlessPath.Server\EndlessPath.Domain\EndlessPath.Domain.csproj", "{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndlessPath.Network", "..\EndlessPath.Server\EndlessPath.Network\EndlessPath.Network.csproj", "{45CA3896-9408-494D-B122-EF4BBD40FC87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-	Debug|Any CPU = Debug|Any CPU
-	ExportDebug|Any CPU = ExportDebug|Any CPU
-	ExportRelease|Any CPU = ExportRelease|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{82CEE5AD-B764-465E-A52A-E1874365F2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -15,5 +23,29 @@ Global
 		{82CEE5AD-B764-465E-A52A-E1874365F2B9}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{82CEE5AD-B764-465E-A52A-E1874365F2B9}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{82CEE5AD-B764-465E-A52A-E1874365F2B9}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{82CEE5AD-B764-465E-A52A-E1874365F2B9}.Release|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{82CEE5AD-B764-465E-A52A-E1874365F2B9}.Release|Any CPU.Build.0 = ExportRelease|Any CPU
+		{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+		{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6C2FB1-4A1F-4833-A628-C295D1B2E71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CA3896-9408-494D-B122-EF4BBD40FC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CA3896-9408-494D-B122-EF4BBD40FC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CA3896-9408-494D-B122-EF4BBD40FC87}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CA3896-9408-494D-B122-EF4BBD40FC87}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{45CA3896-9408-494D-B122-EF4BBD40FC87}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{45CA3896-9408-494D-B122-EF4BBD40FC87}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+		{45CA3896-9408-494D-B122-EF4BBD40FC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CA3896-9408-494D-B122-EF4BBD40FC87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {835450C1-4B7C-4736-BF54-96426C568858}
 	EndGlobalSection
 EndGlobal

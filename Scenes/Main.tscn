@@ -1,8 +1,54 @@
-[gd_scene load_steps=2 format=3 uid="uid://cnn4ekyijf6v4"]
+[gd_scene load_steps=3 format=3 uid="uid://cnn4ekyijf6v4"]
 
-[ext_resource type="PackedScene" uid="uid://c5vf1bhpvlqu3" path="res://Creatures/Player.tscn" id="1_nsmhb"]
+[ext_resource type="PackedScene" uid="uid://ban5kvcbakbk4" path="res://Creatures/Humans/Warrior.tscn" id="1_qbnwm"]
+
+[sub_resource type="CSharpScript" id="CSharpScript_q3478"]
+script/source = "using Godot;
+using System;
+using EndlessPath.Constants;
+
+public partial class Player : CharacterBody2D
+{
+	public const float Speed = 300.0f;
+	public const float JumpVelocity = -400.0f;
+
+	// Get the gravity from the project settings to be synced with RigidBody nodes.
+	public float gravity = ProjectSettings.GetSetting(\"physics/2d/default_gravity\").AsSingle();
+
+	public override void _PhysicsProcess(double delta)
+	{
+		
+		Velocity = new Vector2(
+			(Input.GetActionStrength(ControlConstants.MoveRight) - Input.GetActionStrength(ControlConstants.MoveLeft)) * 100,
+			((Input.GetActionStrength(ControlConstants.MoveDown) - Input.GetActionStrength(ControlConstants.MoveUp)) * 100)
+			);
+
+		var animationPlayer = GetNode<Sprite2D>(\"character_1\").GetNode<AnimationPlayer>(\"AnimationPlayer\");
+		// var animationPlayer = GetNode<AnimationPlayer>(\"AnimationPlayer\");
+		if (Velocity.X > 0)
+		{
+			animationPlayer.CurrentAnimation = ControlConstants.MoveRight;
+		}
+		else if (Velocity.X < 0)
+		{
+			animationPlayer.CurrentAnimation = ControlConstants.MoveLeft;
+		}
+		else
+		{
+			animationPlayer.CurrentAnimation = \"idle_left\";
+		}
+		
+		MoveAndSlide();
+	}
+}
+"
 
 [node name="Node2D" type="Node2D"]
+script = SubResource("CSharpScript_q3478")
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_nsmhb")]
-position = Vector2(672, 351)
+[node name="Player" type="Node" parent="."]
+
+[node name="Outfits" type="Node" parent="Player"]
+
+[node name="CharacterBody2D" parent="Player/Outfits" instance=ExtResource("1_qbnwm")]
+position = Vector2(10, 15)

@@ -1,0 +1,15 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://bl1k5g5ih23i5"]
+
+[ext_resource type="Texture2D" uid="uid://b0wn5v5ll7soe" path="res://Art/GUI.png" id="1_287l8"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j8jen"]
+texture = ExtResource("1_287l8")
+texture_margin_left = 15.4276
+texture_margin_top = 28.5161
+texture_margin_right = 15.2059
+texture_margin_bottom = 27.268
+region_rect = Rect2(1.24186, 33.542, 45.8093, 45.0516)
+
+[resource]
+Panel/styles/panel = SubResource("StyleBoxTexture_j8jen")
+VBoxContainer/constants/separation = 4

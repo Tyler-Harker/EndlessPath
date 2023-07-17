@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj",
+        "projectName": "EndlessPath.Domain",
+        "projectPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj",
+        "packagesPath": "C:\\Users\\tyler.harker\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\tyler.harker\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tyler.harker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tyler.harker\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\TF-OneDrive\\OneDrive - Tech Fabric LLC\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/tgharker/_packaging/TGHarker/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
+        "projectName": "EndlessPath",
+        "projectPath": "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
+        "packagesPath": "C:\\Users\\tyler.harker\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\tyler.harker\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tyler.harker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tyler.harker\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\TF-OneDrive\\OneDrive - Tech Fabric LLC\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/tgharker/_packaging/TGHarker/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj": {
+                "projectPath": "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "ReduxSimple": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

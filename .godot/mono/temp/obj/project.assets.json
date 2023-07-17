@@ -2207,11 +2207,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
+      "projectUniqueName": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
       "projectName": "EndlessPath",
-      "projectPath": "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
+      "projectPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
       "packagesPath": "C:\\Users\\tyler.harker\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\tyler.harker\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
@@ -2237,8 +2237,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj": {
-              "projectPath": "D:\\Users\\tyler.harker\\Source\\Repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj"
+            "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj": {
+              "projectPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj"
             }
           }
         }

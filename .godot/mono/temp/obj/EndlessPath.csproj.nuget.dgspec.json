@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj": {}
+    "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj": {}
   },
   "projects": {
-    "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj": {
+    "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj",
         "projectName": "EndlessPath.Domain",
-        "projectPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj",
+        "projectPath": "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj",
         "packagesPath": "C:\\Users\\tyler.harker\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\obj\\",
+        "outputPath": "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Users\\tyler.harker\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\tyler.harker\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\tyler.harker\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -29,9 +27,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\TF-OneDrive\\OneDrive - Tech Fabric LLC\\nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/tgharker/_packaging/TGHarker/nuget/v3/index.json": {}
+          "C:\\Users\\tyler.harker\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -70,26 +67,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj": {
+    "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
+        "projectUniqueName": "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
         "projectName": "EndlessPath",
-        "projectPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
+        "projectPath": "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\EndlessPath.csproj",
         "packagesPath": "C:\\Users\\tyler.harker\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Users\\tyler.harker\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\tyler.harker\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\tyler.harker\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,16 +94,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\TF-OneDrive\\OneDrive - Tech Fabric LLC\\nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/tgharker/_packaging/TGHarker/nuget/v3/index.json": {}
+          "C:\\Users\\tyler.harker\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj": {
-                "projectPath": "D:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj"
+              "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj": {
+                "projectPath": "C:\\Users\\tyler.harker\\source\\repos\\Tyler-Harker\\EndlessPath.Server\\EndlessPath.Domain\\EndlessPath.Domain.csproj"
               }
             }
           }
@@ -125,15 +119,15 @@
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.1.1, )"
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.1.1, )"
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.1.1, )"
             },
             "ReduxSimple": {
               "target": "Package",
@@ -156,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
